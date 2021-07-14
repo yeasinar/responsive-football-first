@@ -1,0 +1,27 @@
+body{
+    font-family: 'Merriweather', serif;
+}
+ /* game banner style   */
+.game-start{
+    background-color: navy;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 20px;
+}
+.game-details{
+    font-size: 60px;
+    color: white;
+    margin: 60px;
+    padding: 0px; 
+}
+.buttom{
+    color: oldlace;
+    background-color: red;
+    font-size: 30px;
+    margin-left: 10px;
+    border-radius: 5px;
+    text-decoration: none;  
+}
+.img-banner img{
+    width: 90%;
+}
