@@ -3,6 +3,7 @@ body{
 }
  /* game banner style   */
 .game-start{
+
     background-color: navy;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -11,7 +12,7 @@ body{
     
 }
 .game-details{
-    font-size: 60px;
+    font-size: 40px;
     color: white;
     margin: 60px;
     padding:0px; 
@@ -19,13 +20,15 @@ body{
 .buttom{
     color: oldlace;
     background-color: red;
-    font-size: 30px;
+    font-size: 20px;
     margin-left: 10px;
     border-radius: 5px;
     text-decoration: none;  
 }
 .img-banner img{
     width: 90%;
+    margin-top: 70px;
+    margin-bottom: 50px;
 }
 /* <!-- Top Players style --> */
 
@@ -34,15 +37,14 @@ body{
     width: 60%;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 60px;
-    margin-left: 400px;
-    margin-bottom: 50px; 
+    margin-left: 300px;
+    margin-bottom: 40px; 
 }
 .Player{
     height: 100%;
-   width: 80%;
-   padding: 10px;
+   width: 90%;
+   padding: 5px;
    box-shadow: 5px 5px 5px 5px gray;
-   
 }
 .photo img{
     width: 100%;
@@ -53,9 +55,9 @@ body{
 
 .image-icon img{
    
-    margin-left: 450px;
+    margin-left: 200px;
 }
 .socal-icon{
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 }
