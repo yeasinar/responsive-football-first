@@ -7,12 +7,14 @@ body{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-row-gap: 20px;
+    margin-bottom: 80px;
+    
 }
 .game-details{
     font-size: 60px;
     color: white;
     margin: 60px;
-    padding: 0px; 
+    padding:0px; 
 }
 .buttom{
     color: oldlace;
@@ -24,4 +26,27 @@ body{
 }
 .img-banner img{
     width: 90%;
+}
+/* <!-- Top Players style --> */
+
+.Top-players{
+    display: grid;
+    width: 60%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 60px;
+    margin-left: 400px;
+    margin-bottom: 50px; 
+}
+.Player{
+    height: 100%;
+   width: 80%;
+   padding: 10px;
+   box-shadow: 5px 5px 5px 5px gray;
+   
+}
+.photo img{
+    width: 100%;
+}
+.player-details{
+    font-size: 30px;
 }
